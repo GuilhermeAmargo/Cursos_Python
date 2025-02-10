@@ -11,3 +11,18 @@ def vogal(vogal):
         return True
     else:
         return False
+
+print(vogal("a"))  # True
+print(vogal("A"))  # True
+print(vogal("e"))  # True
+print(vogal("E"))  # True
+print(vogal("i"))  # True
+print(vogal("I"))  # True
+print(vogal("o"))  # True
+print(vogal("O"))  # True
+print(vogal("u"))  # True
+print(vogal("U"))  # True
+print(vogal("b"))  # False
+print(vogal("B"))  # False
+print(vogal("1"))  # False
+print(vogal("@"))  # False
